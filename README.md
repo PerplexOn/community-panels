@@ -1,8 +1,8 @@
 # Plinky 12 Community Panels
 
 This repository collects community-submitted Plinky 12 custom panel designs.
-Panels listed here are shown in the Community section of the Plinky 12 web
-panel library. https://plinky12.com/community.html
+Panels listed here are shown in the [Community section of the Plinky 12 web
+panel library](https://plinky12.com/community.html).
 
 Community panels are not official Plinky examples. They are reviewed for basic
 metadata and build compatibility, but they are not officially supported by
@@ -10,13 +10,40 @@ Plinky.
 
 If you find a problem, please [file an issue](https://github.com/plinkysynth/community-panels/issues).
 
-For more information about Plinky 12, go to https://plinky12.com
+For more information about Plinky 12, visit [plinky12.com](https://plinky12.com).
 
-Some `mmalex/` panels are generated exports of built-in examples from the main
-Plinky 12 repository, so the consumer-facing community gallery can show every
-panel source it serves. Those generated `.cpp` files start with a short marker;
-please update their canonical source in the main repo rather than editing the
-exported copy here.
+## Sharing Your Panel
+
+Got a panel you'd like other people to try? **Submit it by opening a pull
+request (PR) to this repository on GitHub.** A pull request is a way to ask us
+to review your files and add them to the community collection.
+
+1. **Get your panel ready.** Test it in the [Plinky 12 web
+   IDE](https://plinky12.com/ide.html), then save your panel's `.cpp` source
+   file. Add the required metadata (your author name and firmware version),
+   plus a display name and short description to help people find it. The
+   sections below explain the details.
+2. **Make your own copy of this repository.** Sign in to GitHub and click
+   **Fork** on [plinkysynth/community-panels](https://github.com/plinkysynth/community-panels).
+   A fork is your own copy where you can add your files.
+3. **Add your panel to your fork.** Put the source file in
+   `your_name/your_panel/your_panel.cpp`, following the layout below. You can
+   also add a README with instructions and a small square artwork image.
+   You can upload files through GitHub's website or use Git locally; commit
+   (save) the changes to your fork.
+4. **Open a pull request back here.** From your fork on GitHub, choose
+   **Contribute → Open pull request**, with `plinkysynth/community-panels`
+   as the destination repository and `main` as the destination branch.
+   Briefly explain what your panel does and how you've tested it, then submit
+   the PR.
+5. **Work through the review.** A maintainer will review the submission and
+   may ask for changes, which you can add to the same PR. Once accepted, your
+   panel can be built and published to the community library. Opening a PR
+   does not publish it immediately.
+
+To update a panel later, follow the same process with changes to its existing
+files. Once it's published, use its [community permalink](#permalinks) to
+share it with other Plinky users.
 
 ## Panel Layout
 
@@ -52,7 +79,8 @@ The community panel ID comes from the author and panel directory names:
 letters, numbers, and underscores. Use the `@Name` metadata for display names
 with spaces and punctuation.
 
-Metadata for your panel is included in a block comment in the cpp file. See below for more information.
+Metadata for your panel goes in a block comment in the `.cpp` file. See
+[Required Metadata](#required-metadata) below for the format.
 
 The optional panel `README.md` is shown in the Plinky web IDE panel cover after
 someone opens the panel from the library. The public library listing uses the
