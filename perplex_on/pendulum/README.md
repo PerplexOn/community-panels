@@ -2,6 +2,9 @@
 
 A pendulum music box for Plinky 12. Swipe a row and a damped pendulum swings across it, playing a note every time it hits a wall.
 
+**See it in action:** https://www.instagram.com/reel/Dds5bK9Ct8s/?stkn=MTZlcWFsb2o5ejh3bg==
+
+
 ## Play
 
 - **Swipe a row** to launch a pendulum. Each of the 16 rows is its own lane.
