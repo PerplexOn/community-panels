@@ -1,6 +1,6 @@
 # KRISTALLWUCHS
 
-Crystal growth is an instrument for Plinky 12. Random walkers freeze onto a growing crystal and every docking plays a note.
+Crystal growth is an algorithmic instrument for Plinky 12. Random walkers freeze onto a growing crystal and every docking plays a note.
 
 See it in action: https://www.instagram.com/reel/Ddo3G4rCksZ/?stkn=ajlnaTB4YjJzdjIw
 
