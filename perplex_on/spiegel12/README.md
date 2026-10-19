@@ -2,6 +2,9 @@
 
 An interpretation of Laurie Spiegel's Music Mouse for Plinky 12. Your finger is the mouse: it steers four interlocking voices, all snapped to a harmonic mode, so every move sounds musical.
 
+**See it in action:** https://www.instagram.com/reel/Demx5sICVLa/?utm_source=ig_web_copy_link&srtk=NTc4MTIwNjQ2YQ==
+
+
 ## Play
 
 - **Right field (12 x 16):** touch to play. Columns drive the X voice pair, rows drive the Y voice pair. Higher row = higher pitch.
