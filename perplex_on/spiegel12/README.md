@@ -1,5 +1,7 @@
 # SPIEGEL 12
 
+[Download the PDF manual](manual.pdf)
+
 An interpretation of Laurie Spiegel's Music Mouse for Plinky 12. Your finger is the mouse: it steers four interlocking voices, all snapped to a harmonic mode, so every move sounds musical.
 
 **See it in action:** https://www.instagram.com/reel/Demx5sICVLa/?utm_source=ig_web_copy_link&srtk=NTc4MTIwNjQ2YQ==
