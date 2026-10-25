@@ -1,7 +1,6 @@
 /*
 @Name: Spiegel 12
 @Author: PERPLEX ON
-@Firmware: beta
 @Tags: instrument, harmony, generative, arpeggiator, xy, pressure
 @Preferred Panels: blocks
 @Description: An interpretation of Laurie Spiegel's Music Mouse for Plinky 12.
@@ -338,6 +337,11 @@ struct spiegel_12 : panel_t {
       cm = -1;
       last_fine = fine;
       return;
+    }
+    // Resynchronise after clock wrap/rewind instead of scheduling gates on the old timeline.
+    if (fine < last_fine) {
+      release_all();
+      last_fine = fine;
     }
     if (qi == 0 && finger != cm) commit(fine); // quantise Off: adopt immediately
     int guard = 0;

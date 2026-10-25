@@ -10,7 +10,7 @@ An interpretation of Laurie Spiegel's Music Mouse for Plinky 12. Your finger is 
 ## Play
 
 - **Right field (12 x 16):** touch to play. Columns drive the X voice pair, rows drive the Y voice pair. Higher row = higher pitch.
-- **Voice markers:** blue/purple on the top edge (X pair), green/red on the right edge (Y pair).
+- **Voice markers:** blue/purple on the bottom edge (X pair), green/red on the right edge (Y pair).
 - **Quantised:** the touched cell is adopted on the next 1/16 grid line (switch to Off for instant response).
 - **Free-running clock:** no transport needed.
 
@@ -49,3 +49,5 @@ An interpretation of Laurie Spiegel's Music Mouse for Plinky 12. Your finger is 
 - Panel ID: `perplex_on/spiegel_12`
 - Author: PERPLEX ON
 - Output: internal synth (4 voices)
+
+The panel page lists the firmware revision and build date for the current download.
